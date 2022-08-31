@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos</title>
+</head>
+<body>
+    <h1>Colores</h1>
+    <!--son 140 colores que se manejan por nombre en html
+    para buscar esta lista buscamos :
+    https://htmlcolorcodes.com/es/nombres-de-los-colores/
+    por nombre,codigo Hex ,valor RGB
+    -->
+    <p style="color:crimson">
+        color para nombre
+    </p>
+    <!--Red,Green,Blue = RGB-->
+    <p style="color:rgb(255, 73, 28)">
+        color por codigo rgb
+    </p>
+    <!--rgba = canal alfa de transparencia = indicamos que tan transparente queremos aplicar este color-->
+    <p style="border: 10px solid rgba(220,20,60,.5);">
+        Color rgb con transparencia
+    </p>
+    <!--
+        h = hue, es una reuda de colores que incluye los colores (verde,rojo,azul)
+        s = es la saturacion del color
+        l = lightnees o ilumicacion 
+    -->
+    <p style="color: hsl(118, 83%, 47%);">
+        Color por codigo por hsl
+    </p>
+    <!--hsla canal alfa de transparencia-->
+    <p style="border: 10px solid hsla(315, 95%, 35%,.5);">%
+        Color por codigo por hsla
+    </p>
+    <!--podemo manejar los valor de 0-9 A-F-->
+    <p style="color: #ff00ff;">
+        Color por hexadecimal
+    </p>
+</body>
+</html>
